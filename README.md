@@ -10,7 +10,7 @@ Before starting this lab, make sure you have the following:
 
 - A Microsoft Azure account  
 - Internet connection  
-- A computer running Windows 10 (or later)  
+- A computer running Windows 10/11  
 - Remote Desktop Connection (RDP) installed — included by default on Windows  
 
 
@@ -20,7 +20,7 @@ This lab makes use of the following technologies and tools:
 
 - Microsoft Azure Portal  
 - Azure Virtual Machines (Compute)  
-- Windows 10 Pro (for the VM)  
+- Windows 11 (for the VM)  
 - Remote Desktop Protocol (RDP)  
 - Web browser (Microsoft Edge, Chrome, or similar)
   
@@ -38,3 +38,13 @@ If you do not have an account yet, you can create one using Microsoft's free tri
 <p align="center">
   <img src="images/azure-portal-login.png" width="80%" alt="Azure Portal Login"/>
 </p>
+
+## Accessing the Virtual Machine (Windows 11)
+
+To connect to your Azure Virtual Machine from a Windows 11 computer:
+
+1. Open the **Start Menu**  
+2. Type **Remote Desktop Connection**  
+3. Select the RDP app (preinstalled on Windows 11)  
+4. Enter the Public IP address of your Azure VM  
+5. Authenticate using the username and password you created during VM setup
