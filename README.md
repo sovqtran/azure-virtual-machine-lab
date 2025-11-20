@@ -29,3 +29,12 @@ This lab makes use of the following technologies and tools:
 The following section outlines the process for creating a Windows Virtual Machine in Microsoft Azure.  
 This includes selecting a resource group, choosing an operating system, configuring the VM size,  
 and preparing login credentials that will later be used to access the machine via Remote Desktop.
+
+### Step 1: Log Into the Azure Portal
+
+Start by signing into the Microsoft Azure Portal.  
+If you do not have an account yet, you can create one using Microsoft's free trial, which includes $200 in credits for the first 30 days.
+
+<p align="center">
+  <img src="images/azure-portal-login.png" width="80%" alt="Azure Portal Login"/>
+</p>
