@@ -66,6 +66,60 @@ Here, click the blue **Create** button and choose **Azure virtual machine** from
   <img src="images/azure-create-vm.png" width="80%" alt="Create Azure Virtual Machine"/>
 </p>
 
+### Step 4: Configure the Virtual Machine Basics
+
+On the **Basics** tab, configure the core settings for your virtual machine.  
+These fields determine the VM’s region, operating system, hardware size, and login credentials.
+
+Key fields to complete:
+
+- **Subscription**: Select your Azure subscription  
+- **Resource Group**: Create a new one or select an existing group  
+- **Virtual machine name**: Name your VM (e.g., *ExampleVM*)  
+- **Region**: Choose a region near you  
+- **Image**: Select the operating system (Windows 11 or Windows 10)  
+- **Size**: Choose a VM size appropriate for testing (e.g., *Standard_B2s*)  
+- **Administrator account**: Create your username and password  
+- **Licensing**: Check the box to confirm Windows licensing requirements  
+
+<p align="center">
+  <img src="images/azure-vm-basics.png" width="80%" alt="Azure VM Basics Configuration"/>
+</p>
+
+## ❗ FAQ — Why can't I create a Virtual Machine?
+
+### 1. Azure requires a valid payment method
+If you see this screen when trying to start your free trial, it means you have **not added a payment method yet**.
+
+<p align="center">
+  <img src="images/azure-add-payment.png" width="80%" alt="Azure Add Payment Method"/>
+</p>
+
+To fix this:
+- Go to **account.microsoft.com**
+- Navigate to **Payment options**
+- Click **+ Add payment method**
+- Add a debit card or credit card  
+  *(You will NOT be charged—Azure only verifies the card)*
+
+---
+
+### 2. "This virtual machine requires a subscription without spending limit"
+If Azure blocks you with this message:
+
+<p align="center">
+  <img src="images/azure-subscription-error.PNG" width="80%" alt="Azure Subscription Error"/>
+</p>
+
+It means your subscription is still in **restricted mode**, usually because:
+- You **did not finish identity verification**, OR
+- No **valid payment method** was added yet.
+
+➡️ **Solution:**  
+Add payment method → Wait 1–5 minutes → Refresh Azure VM page.
+
+---
+
 ## Accessing the Virtual Machine (Windows 11)
 
 To connect to your Azure Virtual Machine from a Windows 11 computer:
