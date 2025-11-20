@@ -22,4 +22,10 @@ This lab makes use of the following technologies and tools:
 - Azure Virtual Machines (Compute)  
 - Windows 10 Pro (for the VM)  
 - Remote Desktop Protocol (RDP)  
-- Web browser (Microsoft Edge, Chrome, or similar)  
+- Web browser (Microsoft Edge, Chrome, or similar)
+  
+## Creating the Virtual Machine
+
+The following section outlines the process for creating a Windows Virtual Machine in Microsoft Azure.  
+This includes selecting a resource group, choosing an operating system, configuring the VM size,  
+and preparing login credentials that will later be used to access the machine via Remote Desktop.
