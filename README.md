@@ -48,6 +48,15 @@ If you do not have an account yet, you can create one using Microsoft's free tri
   <img src="images/azure-portal-login.png" width="80%" alt="Azure Portal Login"/>
 </p>
 
+### Step 2: Search for the Virtual Machines service
+
+Once inside the Azure Portal, use the search bar at the top of the page.  
+Type **“virtual machines”** and select **Virtual Machines** from the dropdown list.
+
+<p align="center">
+  <img src="images/azure-search-virtual-machines.png" width="80%" alt="Azure Virtual Machines Search"/>
+</p>
+
 ## Accessing the Virtual Machine (Windows 11)
 
 To connect to your Azure Virtual Machine from a Windows 11 computer:
