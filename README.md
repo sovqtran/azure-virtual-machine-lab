@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://learn.microsoft.com/en-us/azure/architecture/icons/media/services/Virtual-Machines.svg" width="160" alt="Azure Virtual Machine Icon">
+  <img src="https://raw.githubusercontent.com/Azure/azure-icons/master/assets/azure-icons/virtual-machines.png" width="140" alt="Azure Virtual Machine Icon">
 </p>
 
 <h1 align="center">Step-by-Step Guide: Creating Virtual Machines (VM) with Microsoft Azure</h1>
@@ -7,6 +7,7 @@
 <p align="center">
   Hands-on lab for deploying, configuring, and connecting to a Windows 11 Azure Virtual Machine.
 </p>
+
 
 
 # Azure Virtual Machine Lab
