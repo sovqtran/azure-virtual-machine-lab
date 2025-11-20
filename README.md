@@ -1,8 +1,14 @@
 <p align="center">
-  <img src="azure_vm_logo.png" width="180" alt="Azure Virtual Machine Icon">
+  <img src="images/vm-icon.svg" width="90px" alt="Azure Virtual Machine Icon"/>
 </p>
 
+<h1 align="center">Azure Virtual Machine Lab</h1>
 
+<p align="center">
+  A hands-on lab demonstrating how to create and access a Windows Virtual Machine using Microsoft Azure.
+</p>
+
+---
 
 # Azure Virtual Machine Lab
 
