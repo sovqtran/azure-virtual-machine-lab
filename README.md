@@ -57,6 +57,15 @@ Type **“virtual machines”** and select **Virtual Machines** from the dropdow
   <img src="images/azure-search-virtual-machines.png" width="80%" alt="Azure Virtual Machines Search"/>
 </p>
 
+### Step 3: Create a New Virtual Machine
+
+After selecting **Virtual Machines** from the search results, you will be taken to the Virtual Machines dashboard.  
+Here, click the blue **Create** button and choose **Azure virtual machine** from the dropdown menu.
+
+<p align="center">
+  <img src="images/azure-create-vm.png" width="80%" alt="Create Azure Virtual Machine"/>
+</p>
+
 ## Accessing the Virtual Machine (Windows 11)
 
 To connect to your Azure Virtual Machine from a Windows 11 computer:
